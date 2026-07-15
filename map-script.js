@@ -15,7 +15,7 @@ osmLayer.addTo(map);
 map.locate({ setView: true, maxZoom: 18, enableHighAccuracy: true });
 
 var userIcon = L.icon({
-  iconUrl: 'logo.png',
+  iconUrl: 'Logo.png',
   iconSize: [48, 30],
   iconAnchor: [20, 20]
 });
@@ -365,7 +365,7 @@ searchInput.addEventListener('keypress', function(event) {
 
 // initial campus marker
 var campusIcon = L.icon({
-    iconUrl: 'logo.png',
+    iconUrl: 'Logo.png',
     iconSize: [48, 30],
     iconAnchor: [22, 30],
     popupAnchor: [0, -30]
